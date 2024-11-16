@@ -6,11 +6,15 @@ body{
     font-size: 15px;
     background-color: #f0f8ff;
 }
-
 header{
     background-color: #2196F3;
     height: 100vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
 }
 h1{
     font-size: 50px;
@@ -18,9 +22,10 @@ h1{
 }
 header h1{
     color: white;
-    margin: 0px;
+    text-align: center;
 }
 .button{
+    margin: 15px;
     height: 40px;
     width: 140px;
     border: none;
@@ -42,6 +47,23 @@ section{
     border: 1px solid grey;
     border-radius: 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+}
+section div p{
+    text-align: left;
+}
+ol li{
+    font-size: 20px;
+}
+form div{
+    margin: 5px 0;
 }
 .submit{
     height: 40px;
@@ -76,4 +98,8 @@ footer{
     background-color: black;
     height: 126px;
     color:lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
